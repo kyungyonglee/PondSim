@@ -1,0 +1,6 @@
+linearpreference.lo linearpreference.o: linearpreference.cpp \
+  linearpreference.h degreepreferencefunction.h
+
+linearpreference.h:
+
+degreepreferencefunction.h:

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd ../src
+make
+cd ../test
+g++ -O2 -o d2test d2test.cpp -I../src ../src/.libs/libnetmod.a -lm
